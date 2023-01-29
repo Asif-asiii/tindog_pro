@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#title{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#title h3{
+    margin-top: 50px;
+}
+#title ul li a{
+  text-decoration: none;
+  color: rgb(235, 215, 215);
+}
+#title ul{
+    position: relative;
+   right: 210px;
+   top: 50px;
+}
+#title ul h2{
+    
+    position:relative;
+    margin-right: 500px;
+    left: 0px;
+}
+.title_1{
+    width: 400px;
+}
+.title_1 h1{
+    font-family:sans-serif;
+    font-weight: bold;
+    word-spacing: 1rem;
+
+
+
+}
+.meet{
+display: flex;
+margin-top: 200px;
+}
+#meet_1{
+    margin-left: 200px;
+}
+#meet_2{
+
+    position: relative;
+    left: 50px;
+   
+}
+.title_1 button{
+  margin-top: 50px;
+  margin: 10px 10px;
+  position: relative;
+  top: 50px;
+  background-color: transparent;
+  color:whitesmoke;
+
+}
+.title_1 button:hover{
+    background-color: rgba(21, 19, 19, 0.869);
+}
+#meet_2 img{
+    width: 300px;
+    height: 550px;
+    rotate: 20deg;
+    position: relative;
+    top: -50px;
+    left: 20px;
+}
+
+#title{
+    background-color: rgb(220, 78, 102);
+    color: whitesmoke;
+    height: 600px;
+    overflow: hidden;
+   
+    width: 100%;
+}
+.meet{
+    position: relative;
+    left: 100px;
+}
+
+/* features section  */
+
+#features{
+    position: relative;
+    margin: 100px 200px 50px 150px;
+}
+#features{
+    display: flex;
+}
+#features div{
+    width: 30%;
+    height: 250px;
+    overflow: hidden;
+}
+#features #features_2,#features #features_3{
+    margin-left: 100px;
+}
+#features img{
+    width: 100px;
+    height: 100px;
+    margin:10px 50px 10px 70px ;
+    
+}
+#features {
+    text-align: center;
+}
+#press img{
+  width: 150px;
+  margin-left: 50px;
+}
+#pricing{
+    display: block;
+}
+.card{
+    margin-left: 50px;
+}
+#cta button{
+    background-color: transparent;
+    width: 100px;
+    margin: 0px 10px;
+    color: whitesmoke;
+    padding: 5px 10px 5px 10px;
+}
+#cta button:hover{
+    background-color: #2B3A55;
+}
+#cta h3{
+    font-weight: bold;
+}
+#cta img{
+    width:50px;
+}
+#cta {
+    background-color:hotpink !important;
+}
+
+#footer{
+    text-align: center;
+}
+#footer{
+    align-items: center;
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 50px;
+}
+#footer img{
+    width: 30px;
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+#footer a{
+    text-decoration: center;
+    text-align: center;
+}
